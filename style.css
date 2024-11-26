@@ -144,16 +144,26 @@ header .fa-bars{
 }
 
 .home .content h1{
-    font-size: 7rem;
+    font-size: 5rem;
     color:var(--green);
 }
 
-.home .content p{
+.container {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Makes the container full viewport height */
+    margin: 0; /* Removes default margin */
+  }
+  
+  p {
     font-size: 1.9rem;
-    color:#333;
-    padding:1rem 0;
-    width: 70rem;
-}
+    color: #333;
+    padding: 1rem 0;
+    width: 98rem;
+    text-align: justify;
+  }
+  
 
 .about .row{
     display: flex;
